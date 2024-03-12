@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.powered-by p {
+    margin: 0;
+}
+
+.powered-by p strong {
+    font-weight: bold;
+    color: #ff4500;
+}
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcar Car Dealers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Webcar Car Dealers</h1>
+        <div id="cart">
+            <span id="cart-avatar">🛒</span>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="cars">
+            <!-- Cars will be added dynamically by JavaScript -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="mailto:info@webcar.com">info@webcar.com</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="cart-sidebar">
+        <div id="cart-items">
+            <h2>Cart</h2>
+            <ul></ul>
+            <div id="total-price">Total: $0</div>
+            <button id="checkout-btn">Checkout with PayPal</button>
+            <script src="https://unpkg.com/intasend-inlinejs-sdk@3.0.4/build/intasend-inline.js"></script>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="contact-form">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="powered-by">
+                <p>Powered by <strong>Link Gidcom Technologies</strong></p>
+            </div>
+        </div>
+        <div id="contact-form" class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="message-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+
+</html>
