@@ -15,7 +15,7 @@ Welcome to Webacar Technologies E-commerce Site! This is a simple website for se
 
 To get started with the E-commerce site, follow these steps:
 
-# Clone the repository:
+## Clone the repository:
 
    ```bash
    git clone https://github.com/Bettgideon/E---Commerce-Site.git
