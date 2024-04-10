@@ -2,7 +2,7 @@
 
 Welcome to Webacar Technologies E-commerce Site! This is a simple website for selling cars online. Users can browse through available cars, view their details, add them to the cart, and proceed to checkout.
 
-## Features
+# Features
 
 - Browse through a collection of cars available for sale.
 - View details of each car, including images and prices.
