@@ -7,6 +7,8 @@ Welcome to Webacar Technologies E-commerce Site! This is a simple website for se
 
 
 
+
+
 - Browse through a collection of cars available for sale.
 - View details of each car, including images and prices.
 - Add cars to the shopping cart.
